@@ -1,0 +1,175 @@
+.feedback-container{
+  background-color: #f4f4f4;
+ margin: 0px auto;
+}
+/* Header for user info */
+.feedback-header {
+  text-align: left; /* Align text to the left */
+  margin: 6px 10px; /* Top and bottom margin for spacing */
+  padding: 10px; /* Optional padding for better spacing */
+  font-family: 'Arial', sans-serif; /* Set a font if needed */
+}
+
+.feedback-header h1 {
+  font-size: 3em; /* Adjust the font size of the main heading */
+  margin: 0px; /* Spacing above and below the heading */
+  text-align: left;
+  color:black;
+}
+
+.feedback-header h2 {
+  font-size: 2rem;
+  color: #333333;
+  margin: 0px;
+  text-align: left;
+}
+
+.feedback-header h3 {
+   color: #333333; 
+  margin: 0;
+}
+
+.feedback-header p {
+  font-size: 18px;
+  font-weight: 800;
+  color: #333333; 
+  margin: 0;
+}
+
+/* New CSS for feedback rows */
+.feedback-row {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: space-between; /* Space elements apart */
+  margin: 10px 0; /* Spacing between rows */
+  width: 100%; /* Full width to accommodate items */
+}
+
+
+  /* Individual feedback cards for each question */
+  .feedback-card {
+    box-sizing: border-box;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for cards */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effect */
+   
+  }
+  
+  .feedback-card:hover {
+    transform: translateY(-5px); /* Lift card on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);/* Enhanced shadow on hover */
+  }
+  
+  
+  .feedback-card h4 {
+    color:#545454;
+    margin-bottom: 10px;
+  }
+  
+  /* Correct/incorrect answers styling */
+  .feedback-card .correct {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .feedback-card .incorrect {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .feedback-card p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Passed status in green */
+.status-passed {
+  color: green;
+  font-weight: bold;
+}
+
+/* Failed status in red */
+.status-failed {
+  color: red;
+  font-weight: bold;
+}
+/* Wrapper for the index and question */
+.question-wrapper {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+/* Green background for correct answers */
+.correct-wrapper {
+  background-color: #d4edda; /* Light green */
+}
+
+/* Red background for incorrect answers */
+.incorrect-wrapper {
+  background-color: #f8d7da; /* Light red */
+}
+
+/* Style for the review button */
+.review-button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.review-button:hover {
+  background-color: #2e6b31; /* Darker green on hover */
+ 
+}
+
+.question-image
+{
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.company-name {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.company-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.company-text h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #004080;
+    margin-bottom: 0; /* Removes bottom space */
+    padding-bottom: 0; /* Ensures no padding below */
+}
+
+.slogan p {
+    font-size: 18px;
+    color: #fff;
+    background-color: #6cc24a;
+    margin-top: -20px; /* Ensures no top margin */
+    padding:5px;
+}

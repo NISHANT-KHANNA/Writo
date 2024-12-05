@@ -1,0 +1,98 @@
+
+.courses-container {
+    text-align: center;
+    padding: 60px; 
+    /* background-color: #edf4fb; */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.courses-heading {
+    font-size: 2.5rem; 
+    color:#2b528e;
+    margin-bottom: 40px; 
+    font-weight: 600;
+}
+
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 100px; 
+    justify-items: center;
+    margin-top: 20px;
+}
+
+
+.course-item {
+    background-color: #ffffff;
+    cursor: pointer;
+    padding: 40px; 
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1); 
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    
+}
+
+
+.course-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); 
+}
+
+
+.course-item h2 {
+    font-size: 2rem; 
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-align: left;
+}
+.course-item p{
+    text-align: left;
+}
+.neet{
+    background-color: #b9d2ee;
+}
+.neet h2{
+    color:#042873;
+}
+.neet p{
+    color: #516797;
+}
+.jee{
+    background-color: #d5ffd8;
+}
+.jee h2{
+    color:#04690b;
+}
+.jee p{
+    color:#678969;
+}
+.twelve{
+    background-color: #ffdbe2;
+}
+.twelve h2{
+    color: #db546f;
+}
+.twelve p{
+    color: #ff6b88;
+}
+.ten{
+    background-color: #fbe7c7;
+}
+.ten h2{
+    color:#eda22d;
+}
+.ten p{
+    color: #d5ab6b;
+}
+.course-icon{
+    height: 100px;
+    width:100px;
+    margin-top:20px;
+}

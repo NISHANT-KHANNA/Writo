@@ -1,0 +1,172 @@
+
+body {
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.admin-dashboard {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  border-radius: 10px;
+
+}
+
+.welcome-section-admin {
+  display: flex;
+  background-color: #cee9fe;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.welcome-image img {
+  width: 80px; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  padding-right: 30px;
+}
+
+.welcome-text h1 {
+  color: #004aad;
+  font-weight: 600;
+  text-align: left;
+  margin: 0; /* Ensure no margin on h1 */
+}
+
+.welcome-text h3 {
+  color: #545454;
+  font-weight: 400;
+  text-align: left;
+  margin: 0; /* Ensure no margin on h3 */
+}
+
+.overview-section h1 {
+  text-align: left;
+  color: black;
+  font-weight: 600;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.overview-section h3 {
+  color: #545454;
+  font-weight: 400;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.card-container-admin {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.card {
+  width: 340px; /* Increase the card width */
+  height: 160px; /* Increase card height */
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale up the card on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 120px;
+}
+
+.card-number {
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding: 10px 20px;
+  background-color: #004aad;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.card img {
+  width: 160px; /* Adjust image size */
+  height: auto;
+}
+
+.chart-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+}
+
+.bargraph-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.bargraph-card {
+  width: 580px; /* Increase the card width */
+  height: 380px; /* Increase card height */
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+.bargraph-card:hover {
+  transform: scale(1.05); /* Scale up on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+.bargraph-card h2 {
+  font-weight: 600;
+  color: black;
+  text-align: left;
+}
+
+.linegraph-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.linegraph-card {
+  width: 1280px; /* Increase the card width */
+  height: 480px; /* Increase card height */
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 20px;
+  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effect */
+}
+
+.linegraph-card:hover {
+  transform: scale(1); /* Scale up on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+}
+
+.linegraph-card h2 {
+  color: black;
+  text-align: left;
+}

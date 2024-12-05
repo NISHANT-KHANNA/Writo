@@ -1,0 +1,56 @@
+/* ScoreBoard.css */
+.scoreboard {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    padding: 20px;
+    background-color: #ECEFF4;
+}
+
+.scoreboard h1 {
+    color: #192351;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.scoreboard-table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #D8DEE9;
+}
+
+.scoreboard-table th, .scoreboard-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #D8DEE9;
+}
+
+.scoreboard-table th {
+    background-color: #192351;
+    color: #ECEFF4;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.scoreboard-table td {
+    color: #192351;
+}
+
+.scoreboard-table tr:hover {
+    background-color: #a5add1; /* Highlight row on hover */
+    color: #2E3440;
+}
+
+.odd-row {
+    background-color: #eff3f9; /* Light background for odd rows */
+}
+
+.even-row {
+    background-color: #dce4fb; /* Darker background for even rows */
+}

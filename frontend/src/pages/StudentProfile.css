@@ -1,0 +1,139 @@
+.outer-container {
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .profile-container {
+    background-color: #fff;
+    padding: 40px;
+    width: 50%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+  }
+  
+  /* Avatar and header section */
+  .profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  .refresh-icon {
+    cursor: pointer;
+    color: #007bff; /* Base color */
+    font-size: 24px; /* Icon size */
+    transition: color 0.3s ease, transform 0.2s ease;
+    margin-left: 8px; /* Space between icon and avatar */
+}
+
+.refresh-icon:hover {
+    color: #0056b3; /* Darker color on hover */
+}
+  .change-avatar-button {
+    background-color: #192351;
+    color: #f4f4f4;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .change-avatar-button:hover {
+    background-color: #4b6fdd;
+  }
+  
+  .profile-header h1 {
+    font-size: 32px;
+    color: #192351;
+    margin: 6px;
+  }
+  
+  .profile-header h2 {
+    font-size: 18px;
+    color: #4b6fdd;
+    margin-top: 6px;
+  }
+  
+
+.profile-info {
+    margin-top: 20px;
+  }
+  .change-avatar-icon {
+    font-size: 24px; /* Size of the icon */
+    cursor: pointer; /* Show pointer on hover */
+    margin: 10px; /* Add some margin */
+    color: #4c74af; /* Change color as needed */
+    transition: color 0.3s ease;
+  }
+  
+  .change-avatar-icon:hover {
+    color: #38588e; /* Change color on hover */
+  }
+  
+ 
+  .info-box {
+    background: linear-gradient(135deg, #7291ed, #4b6fdd);
+    color: #f4f4f4;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+    
+  }
+  
+  
+  
+  /* Circle background effect */
+  .info-box:before {
+    content: "";
+    position: absolute;
+    top: -50px; /* Position the circle */
+    right: -50px;
+    width: 100px; /* Size of the circle */
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.1); /* Light overlay effect */
+    border-radius: 50%; /* Make it circular */
+   
+  }
+  
+  .field-box {
+    margin-bottom: 15px; /* Spacing between fields */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.2); /* Light background for readability */
+  } 
+
+  
+  .add-mobile-box input {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Padding for input */
+    border: 2px solid #192351; /* Border styling for input */
+    border-radius: 6px; /* Rounded corners for input */
+  }
+  
+  .add-mobile-box button {
+    background-color: #192351; /* Button background color */
+    color: #f4f4f4; /* Button text color */
+    padding: 12px 24px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 6px; /* Rounded corners for button */
+    cursor: pointer; /* Cursor change on hover */
+    margin-top: 15px; /* Margin above button */
+  }
+  
+  .add-mobile-box button:hover {
+    background-color: #4b6fdd; /* Button hover color */
+  }
+  

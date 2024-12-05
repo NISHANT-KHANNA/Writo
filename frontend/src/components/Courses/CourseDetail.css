@@ -1,0 +1,128 @@
+.container{
+  margin: 1px 10px;
+}
+.carousel {
+    width: 100%; /* Makes the image take the full width of the container */  
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes any inline spacing */
+    margin: 0 auto; /* Centers the image if there's extra space */
+    border-radius: 20px;
+}
+.heading{
+    text-align: center;
+    
+}
+.heading h1 {
+    font-size: 34px;
+    margin-bottom: 0; 
+   
+}
+
+.heading p {
+    margin-top: 0; 
+    font-size: 18px;
+}
+.course-content {
+    display: flex;
+    justify-content: space-around; /* Ensures that the columns are spaced out */
+    gap: 20px; /* Adds space between the left and right columns */
+    width: 100%; /* Ensures the container takes the full width of the page */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Optional: Adds padding inside the container */
+    /* background-color: aqua; */
+  }
+  
+  .left-column {
+    flex: 1.3; /* Takes up available space */
+    padding: 10px;
+    /* background-color: blue; */
+  }
+  
+  .right-column {
+/*    margin-right: 20px;*/
+    flex: 1; /* Takes up available space */
+    padding: 10px;
+    /* background-color:olive; */
+ 
+  }
+  
+  .right-column img {
+    width: 100%; /* Makes the image take the full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    margin-top: 60px;
+    border-radius: 20px;
+  }
+  .left-column h3{
+    font-size: 27px;
+    
+  }
+  .left-column h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color:black;
+    font-weight: 600;
+  }
+  .left-column p{
+    font-size: 18px;
+ 
+  }
+  .subjects-main-container{
+    display: flex;
+    gap:5px;
+  }
+  .subjects-container {
+    display: flex; /* Aligns items in a row */
+    flex-wrap: wrap; /* Allows wrapping if there's not enough space */
+    gap: 12px; /* Adds space between subjects */
+    margin-bottom: 20px;
+/*    background-color: red;*/
+  }
+  
+  .subject-item {
+    background-color: #dce4fb; /* Background color for each subject */
+    padding: 10px;
+    border-radius: 20px; /* Optional: adds rounded corners to the subjects */
+    text-align: center; /* Centers the text */
+    font-size: 16px; /* Optional: adjusts font size */
+  }
+  .language-container{
+    display: flex;
+    gap: 5px;
+  }
+  .language{
+    background-color: #000000; /* Background color for each subject */
+    padding: 10px;
+    border-radius: 20px; /* Optional: adds rounded corners to the subjects */
+    text-align: center; /* Centers the text */
+    font-size: 16px; /* Optional: adjusts font size */
+    width:100px;
+    color: #fff;
+    margin-bottom: 30px;
+  }
+  .pic-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  .pic-item {
+    display: flex;
+    flex-direction: column; /* Ensures vertical stacking */
+    align-items: center; /* Centers image and text horizontally */
+    text-align: center; /* Center-aligns the caption text */
+    width: 150px; /* Adjust width as needed */
+  }
+  
+  .pic {
+    width: 100%; /* Ensures the image fits within the container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px;
+  }
+  
+  .caption {
+    margin-top: 4px; /* Adds spacing between the image and text */
+    color: grey;
+    
+  }
+  

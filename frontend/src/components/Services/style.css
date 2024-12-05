@@ -1,0 +1,89 @@
+/* src/Services.css */
+.services-container {
+  text-align: center;
+  /* background-color: palevioletred; */
+}
+
+.services-heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  margin-top: 60px;
+  font-weight:500;
+  color:#e7191f;
+  /* background-color: red; */
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center; 
+  gap: 40px; 
+  /* background-color: blue; */
+}
+
+.service-box {
+  /* background-color: rgb(207, 228, 228); */
+  padding: 40px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  width: 180px; 
+  height:420px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3ease, box-shadow 0.3 ease;
+}
+.service-box:hover {
+  transform: scale(1.05); /* Slightly enlarge the box on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for pop-up effect */
+}
+.service-box h2{
+  color:#25606a;
+  font-weight: 500;
+  line-height: 1.5rem;
+  /* background-color: brown; */
+}
+.service-box p{
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+.service-icon {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.rank{
+  background-color: #c6eede;
+}
+.rank h2{
+  color:#0a7e5f;
+}
+.rank p{
+  color:#0c926e;
+}
+.soln{
+  background-color: #b9d2ee;
+}
+.soln h2{
+  color: #4a5f8e;
+}
+.soln p{
+  color:#516797;
+}
+.prac{
+  background-color: #ffdbe2;
+}
+.prac h2{
+  color:#db546f;
+}
+.prac p{
+  color:#db546f;
+}
+.test{
+  background-color: #fbe7c7;
+}
+.test h2{
+  color:#bb955b;
+}
+.test p{
+  color:#bb955b;
+}

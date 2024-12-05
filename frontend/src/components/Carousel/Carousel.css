@@ -1,0 +1,22 @@
+/* Main carousel container styling */
+.carousel-container {
+  max-width: auto;   /* Maximum width of the carousel */
+  margin: auto;       /* Centers the carousel */
+  padding: 20px;      /* Adds padding around the container */
+  overflow: hidden;   /* Prevents overflow if images exceed container size */
+}
+
+/* Styling for each image inside the carousel */
+.carousel-container img {
+  width: 100%;       /* Makes sure images are responsive and fit the container */
+  height: auto;      /* Maintains aspect ratio */
+  border-radius: 8px; /* Rounded corners for a polished look */
+}
+
+/* Optional: Slick carousel dots styling */
+.slick-dots {
+  bottom: 10px;  /* Position dots at the bottom */
+  text-align: center;
+  color:white;
+}
+

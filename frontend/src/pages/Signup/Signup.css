@@ -1,0 +1,173 @@
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+ 
+  .signup-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 80%;
+    height: 90vh;
+  }
+  
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+  }
+  
+  
+  .writo-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+
+  .signup-form {
+    width: 100%;
+    max-width: 350px;
+  }
+  
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+ 
+  .form-group label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  
+  .signup-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4c74af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-btn:hover {
+    background-color: #38588e;
+  }
+  
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  .signup-image {
+    max-width: 150%;
+    height: auto;
+   
+  }
+  
+ 
+  .login-text {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .login-link {
+    color: #4c7faf;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+ /* Style for the course select dropdown */
+.signup-form .form-group {
+  margin-bottom: 10px;
+}
+
+.signup-form label {
+  font-size: 14px;
+  color: #333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.signup-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+}
+
+.signup-form select:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.signup-form select option {
+  padding: 10px;
+}
+
+/* General signup button styling */
+.signup-btn {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.signup-btn:hover {
+  background-color: #0056b3;
+}
+
+  

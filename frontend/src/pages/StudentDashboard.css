@@ -1,0 +1,188 @@
+   
+body {
+  background-color: #fff; 
+  font-family: 'Poppins', sans-serif;
+}
+
+.student-dashboard {
+  padding: 20px;
+  background-size :cover;
+  border-radius: 10px;
+}
+/* Welcome Section */
+.welcome-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures the student image is pushed to the right */
+  background-color: #cee9fe;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  gap: 20px;
+  position: relative;
+}
+
+/* Styling for the first image (writo image) */
+.writo-image {
+  width: 80px; /* Set width for writo image */
+  height: auto;
+}
+
+/* Styling for the second image (student image) */
+.student-image {
+  width: 210px; 
+  height: auto;
+  align-self: flex-end;
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+}
+
+.welcome-text {
+  flex-grow: 1; /* Allows the welcome text to take up available space */
+}
+
+.welcome-text h1 {
+  color: #004aad;
+  font-weight: 600;
+}
+
+.welcome-text h3 {
+  color: #545454;
+}
+
+
+.overview-section {
+  margin-top: 20px;
+}
+
+/* Overview Columns */
+.overview-columns {
+  display: flex;
+/*  background-color: green;*/
+  justify-content: space-around; /* Ensures that columns are spaced apart */
+}
+
+/* Column 1 */
+.column1 {
+  box-sizing: border-box;
+  flex:0 70%; /* Reduced width of Column 1 */
+  display: flex;
+  flex-direction: column;
+/*  gap: 6px;*/
+/*  background-color: yellow;*/
+  padding: 5px;
+}
+.card-container {
+  display: flex;
+/*  gap: 1px; */
+/*  background-color: green;*/
+  justify-content: space-between; /* Space out the cards evenly */
+}
+
+.card {
+  width: 230px; /* Reduced width of the cards */
+  height: auto;
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 20px 10px 20px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Card Image Styling */
+.card img {
+  width: 100px; /* Keep the width of the image */
+  height: auto; /* Maintain the aspect ratio */
+ }
+
+
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0px;
+}
+
+.card-number {
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #004aad;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.bargraph-container {
+  display: flex;
+
+/*  gap: 18px; */
+  justify-content: space-between;
+/*  background-color: red;*/
+}
+
+.bargraph-card {
+  width: 100%; 
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+/* Adjust the size of the chart to prevent overflow */
+.graph-wrapper {
+ 
+  height:80%;  /* Set a fixed height */
+  width: 100%;    /* Ensure it fills the container */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* Column 2 */
+.column2 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+/*  gap: 6px;*/
+/*  background-color: red;*/
+  padding: 5px;
+}
+.calendar {
+/*  width: 280px; */
+  
+  padding: 20px;
+/*  background-color: green;*/
+  text-align: center;
+}
+.ad-div{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboardAd{
+  border-radius: 10px;
+  width: 200px;
+}
+.bargraph-card:hover {
+  transform: scale(1);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.hashtag h3,h4{
+  color:grey;
+  font-weight: 500;
+  margin:0px;
+}
+.hashtag{
+  margin-top:20px;
+}

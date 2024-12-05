@@ -1,0 +1,120 @@
+/* Full-page container styling */
+.instruction-page {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Header styling */
+.header {
+    background-color: #007bff; /* Primary blue color for a professional look */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px; /* Increased padding for a bolder header */
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+    font-size: 2.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.header h1 svg {
+    margin-left: 10px;
+    font-size: 2.4rem;
+}
+
+/* Centered instruction content */
+.instruction-content {
+    background-color: white; /* White background for content */
+    width: 70%;
+    padding: 30px; /* More padding for breathing room */
+    text-align: justify;
+    margin: 0px auto; /* Centers the div and adds top margin */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.instruction-content h1 {
+    font-size: 2.2rem;
+    color: #333; /* Dark gray color for titles */
+    border-bottom: 2px solid #007bff; /* Underline for separation */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.instruction-content h2 {
+    font-size: 1.8rem;
+    color: #444; /* Slightly lighter gray for subheadings */
+    margin-top: 10px;
+}
+
+.instruction-content p,
+.instruction-content ol {
+    font-size: 1rem;
+    color: #555; /* Standard gray for paragraph text */
+    line-height: 1.2;
+}
+
+.instruction-content ol li {
+    margin-bottom: 15px; /* Space between list items */
+}
+
+/* Status symbols styling */
+.status-symbols {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px; /* Add space between text and symbols */
+}
+
+.status-symbols .symbol {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 8px;
+    border: 2px solid #ccc; /* Border for more polished look */
+}
+
+.not-visited {
+    background-color: #c4c4c4; /* Softer gray for not visited */
+}
+
+.not-answered {
+    background-color: #ff6b6b; /* Softer red for not answered */
+}
+
+.answered {
+    background-color: #51d96a; /* Green for answered */
+}
+
+.marked-review {
+    background-color: #ffd700; /* Yellow for marked review */
+}
+
+.answered-marked {
+    background-color: #4f83cc; /* Blue for answered and marked */
+}
+
+/* Arrow icon styling */
+.next-icon,
+.prev-icon {
+    cursor: pointer;
+    color: #007bff;
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s ease; /* Adds subtle animation */
+}
+
+.next-icon:hover,
+.prev-icon:hover {
+    transform: scale(1.1); /* Slight zoom on hover for effect */
+    color: #0056b3; /* Darker blue on hover */
+}

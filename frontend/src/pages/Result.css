@@ -1,0 +1,142 @@
+.result-container {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+/*  background-color: #f4f4f4;*/
+  height: auto;
+  background-size: cover;
+/*  width: 100%;*/
+}
+
+.result-header {
+  margin-bottom: 20px;
+  text-align: left; /* Align the header text to the left */
+/*  background-color: pink;*/
+  padding-left: 30px;
+
+}
+
+.result-header h2{
+  font-size: 32px;
+}
+.result-header h2, .result-header h3 {
+  margin: 0;
+  text-align: left; 
+}
+
+/*.test-results {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start; 
+ 
+}
+*/
+.test-results{
+/*    background-color: pink;*/
+    display: flex;
+    gap: 50px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 50px ;
+}
+.test-card {
+  width: 25%; /* Set card width to take up available space */
+  max-width: 900px; /* Maximum width for cards */
+  background-color: #fff;
+  border-radius: 20px; /* Rounded corners */
+/*  padding: 10px;*/
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  color: #192351;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s , box-shadow 0.2s; /* Smooth hover effect */
+}
+.upper-half{
+  width: 100%;
+  height: 150px;
+  border-top-left-radius:20px ;
+  border-top-right-radius:20px ;
+}
+
+.bottom-half{
+  display: flex;
+  flex-direction: column;
+/*  background-color:lightyellow;*/
+  border-bottom-left-radius:20px ;
+  border-bottom-right-radius:20px ;
+}
+.test-detail1{
+/*  background-color: lightblue;*/
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: 18px;
+}
+.test-detail1 p{
+  margin: 2px 0px;
+}
+.test-detail2{
+/*  background-color: lightgrey;*/
+  padding: 0px 35px 0px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.test-detail2 p span {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Space between the icon and text */
+}
+.test-detail2 p {
+  margin: 10px 0px;
+  text-align: left;
+  font-size: 18px;
+}
+
+
+
+.test-card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+
+
+.status-passed {
+  color: green;
+}
+
+.status-failed {
+  color: red;
+}
+
+
+.test-detail3{
+
+  padding-left: 15px;
+  text-align: left;
+/*  color: #545454;*/
+}
+
+.test-detail3 p {
+  margin: 10px 0px;
+
+ 
+}
+
+.time-item {
+  display: flex; /* Use flexbox to align icon and text */
+  align-items: center; /* Vertically center the icon with text */
+}
+
+.time-icon {
+  font-size: 23px;
+  margin-right: 8px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
